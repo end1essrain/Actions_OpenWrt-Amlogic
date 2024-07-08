@@ -4864,7 +4864,7 @@ CONFIG_PACKAGE_luci-app-firewall=y
 # CONFIG_PACKAGE_luci-app-gowebdav is not set
 # CONFIG_PACKAGE_luci-app-guest-wifi is not set
 # CONFIG_PACKAGE_luci-app-haproxy-tcp is not set
-CONFIG_PACKAGE_luci-app-hd-idle=y
+# CONFIG_PACKAGE_luci-app-hd-idle=y
 # CONFIG_PACKAGE_luci-app-heimdall is not set
 # CONFIG_PACKAGE_luci-app-hnet is not set
 # CONFIG_PACKAGE_luci-app-homeassistant is not set
@@ -4933,16 +4933,16 @@ CONFIG_PACKAGE_iptables-mod-extra=y
 # CONFIG_PACKAGE_luci-app-pagekitec is not set
 # CONFIG_PACKAGE_luci-app-parentcontrol is not set
 # CONFIG_PACKAGE_luci-app-partexp is not set
-CONFIG_PACKAGE_luci-app-passwall=y
+# CONFIG_PACKAGE_luci-app-passwall=y
 
 #
 # Configuration
 #
-CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
+# CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
 # CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG is not set
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
@@ -4957,7 +4957,7 @@ CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin is not set
 # end of Configuration
 
@@ -4997,11 +4997,11 @@ CONFIG_PACKAGE_luci-app-poweroff=y
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
 # CONFIG_PACKAGE_luci-app-pushbot is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent is not set
-CONFIG_PACKAGE_luci-app-qbittorrent=y
-CONFIG_PACKAGE_luci-app-qbittorrent_static=y
+# CONFIG_PACKAGE_luci-app-qbittorrent=y
+# CONFIG_PACKAGE_luci-app-qbittorrent_static=y
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple_static is not set
-CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
+# CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
 # CONFIG_PACKAGE_luci-app-qos is not set
 CONFIG_PACKAGE_luci-app-quickstart=y
 # CONFIG_PACKAGE_luci-app-radicale is not set
@@ -5013,7 +5013,7 @@ CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng=y
 CONFIG_PACKAGE_luci-app-rtbwmon=y
 # CONFIG_PACKAGE_luci-app-samba is not set
 # CONFIG_PACKAGE_luci-app-samba4 is not set
-CONFIG_PACKAGE_luci-app-serverchan=y
+# CONFIG_PACKAGE_luci-app-serverchan=y
 # CONFIG_PACKAGE_luci-app-shadowsocks-libev is not set
 # CONFIG_PACKAGE_luci-app-shairplay is not set
 # CONFIG_PACKAGE_luci-app-shortcutmenu is not set
@@ -5271,18 +5271,18 @@ CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-hd-idle-tr is not set
 # CONFIG_PACKAGE_luci-i18n-hd-idle-uk is not set
 # CONFIG_PACKAGE_luci-i18n-hd-idle-vi is not set
-CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-hd-idle-zh-tw is not set
 CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-nlbwmon-ja is not set
 # CONFIG_PACKAGE_luci-i18n-nlbwmon-ru is not set
 CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-passwall-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-poweroff-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-poweroff-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-poweroff-zh_Hans is not set
-CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-quickstart-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-quickstart-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-rtbwmon-zh-cn=y
@@ -6680,7 +6680,7 @@ CONFIG_PACKAGE_fdisk=y
 # CONFIG_PACKAGE_fio is not set
 # CONFIG_PACKAGE_fixparts is not set
 # CONFIG_PACKAGE_gdisk is not set
-CONFIG_PACKAGE_hd-idle=y
+# CONFIG_PACKAGE_hd-idle=y
 # CONFIG_PACKAGE_hdparm is not set
 CONFIG_PACKAGE_lsblk=y
 # CONFIG_PACKAGE_lvm2 is not set
@@ -7517,4 +7517,4 @@ CONFIG_PACKAGE_uuidgen=y
 # end of Font-Utils
 # end of Xorg
 
-CONFIG_OVERRIDE_PKGS="UnblockNeteaseMusic UnblockNeteaseMusic-Go adguardhome aliyundrive-fuse aliyundrive-webdav amule antileech aria2 baidupcs-web dnsforwarder dnsproxy gmediarender go-aliyundrive-webdav gowebdav haproxy libcups luci-app-aliyundrive-fuse luci-app-aliyundrive-webdav luci-app-amule luci-app-argon-config luci-app-autoreboot luci-app-baidupcs-web luci-app-diskman luci-app-dockerman luci-app-easymesh luci-app-guest-wifi luci-app-ipsec-server luci-app-kodexplorer luci-app-mosdns luci-app-nft-qos luci-app-pppoe-relay luci-app-pptp-server luci-app-pushbot luci-app-ramfree luci-app-serverchan luci-app-socat luci-app-softethervpn luci-app-verysync luci-app-xlnetacc luci-lib-ipkg luci-theme-design miniupnpd msd_lite msmtp mwan3 nft-qos nps pdnsd-alt qBittorrent qBittorrent-static qtbase qttools rblibtorrent rp-pppoe shadowsocks-libev smartdns tcpping uugamebooster verysync wxbase"
+CONFIG_OVERRIDE_PKGS="UnblockNeteaseMusic UnblockNeteaseMusic-Go adguardhome aliyundrive-fuse aliyundrive-webdav amule antileech aria2 baidupcs-web dnsforwarder dnsproxy gmediarender go-aliyundrive-webdav gowebdav haproxy libcups luci-app-aliyundrive-fuse luci-app-aliyundrive-webdav luci-app-amule luci-app-argon-config luci-app-autoreboot luci-app-baidupcs-web luci-app-diskman luci-app-dockerman luci-app-easymesh luci-app-guest-wifi luci-app-ipsec-server luci-app-kodexplorer luci-app-mosdns luci-app-nft-qos luci-app-pppoe-relay luci-app-pptp-server luci-app-pushbot luci-app-ramfree luci-app-socat luci-app-softethervpn luci-app-verysync luci-app-xlnetacc luci-lib-ipkg luci-theme-design miniupnpd msd_lite msmtp mwan3 nft-qos nps pdnsd-alt qBittorrent qBittorrent-static qtbase qttools rblibtorrent rp-pppoe shadowsocks-libev smartdns tcpping uugamebooster verysync wxbase"
